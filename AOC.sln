@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC.Tests", "AOC.Tests\AOC.Tests.csproj", "{71F3322F-A7B1-4797-9702-C35962E7C5A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC.Main", "AOC.Main\AOC.Main.csproj", "{B052582A-CC7A-4168-A46A-146FF64902DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71F3322F-A7B1-4797-9702-C35962E7C5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F3322F-A7B1-4797-9702-C35962E7C5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F3322F-A7B1-4797-9702-C35962E7C5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F3322F-A7B1-4797-9702-C35962E7C5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B052582A-CC7A-4168-A46A-146FF64902DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B052582A-CC7A-4168-A46A-146FF64902DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B052582A-CC7A-4168-A46A-146FF64902DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B052582A-CC7A-4168-A46A-146FF64902DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C36E98D-4863-41CD-A6E9-C57E1686C84C}
+	EndGlobalSection
+EndGlobal
