@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -12,8 +13,8 @@ namespace AOC
             if (String.IsNullOrEmpty(input))
                 input = await FileGrabber.LoadFile(Day);
 
-
-            return new Results(1, 2);
+            var result = input.Split("\n\n").Select(s => s.Split('\n').Where(s => !String.IsNullOrWhiteSpace(s)).Sum(x => Convert.ToInt32(x)));
+            return new Results(result.Max(), result.OrderByDescending(x => x).Take(3).Sum());
         }
     }
 }
