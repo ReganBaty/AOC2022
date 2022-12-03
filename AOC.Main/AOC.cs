@@ -9,6 +9,8 @@ namespace AOC
         private readonly static List<IDay> Days = new List<IDay>() {
             new Day1(),
             new Day2(),
+            new Day3(),
+
         };
 
         public static async Task Main()
