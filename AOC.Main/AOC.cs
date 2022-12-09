@@ -14,7 +14,8 @@ namespace AOC
             new Day5(),
             new Day6(),
             new Day7(),
-            new Day8()
+            new Day8(),
+            new Day9(),
         };
 
         public static async Task Main()
